@@ -14,7 +14,7 @@ namespace AutomaticYoutubeVideoWatcher
             int i = 0, workcounter;
             for (int x = 0; x < 1; x = x)
             {
-                Console.WriteLine("1-)Add Youtube Link\n2-)Start the Process");
+                Console.WriteLine("\n1-)Add Youtube Link\n2-)Start the Process\n");
                 int menu = int.Parse(Console.ReadLine());
                 switch (menu)
                 {
